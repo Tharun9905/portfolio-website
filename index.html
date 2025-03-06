@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devarla Tharun Sai - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Playfair+Display:wght@500&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #0f0c29, #4a148c);
+            color: white;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: left;
+        }
+        .hero img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: 0 0 30px #8e44ad;
+            background: radial-gradient(circle, rgba(138,43,226,1) 0%, rgba(75,0,130,1) 100%);
+            padding: 10px;
+        }
+        .intro {
+            max-width: 500px;
+            margin-left: 20px;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .icons i {
+            font-size: 50px;
+            margin: 15px;
+            color: white;
+        }
+        .skills-container, .projects-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+        .skill-box, .project-box {
+            background: linear-gradient(135deg, rgba(138,43,226,0.8), rgba(255,140,0,0.8));
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            transition: 0.3s;
+            box-shadow: 0 0 15px rgba(255,140,0,0.8);
+            margin: 20px;
+        }
+        .resume i {
+            font-size: 50px;
+            margin-top: 10px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hi, I am Devarla Tharun Sai</h1>
+        <p>CSE Student at Kalasalingam Academy of Research and Education</p>
+    </header>
+    
+    <section class="hero">
+        <img src="image.jpg" alt="Devarla Tharun Sai">
+        <div class="intro">
+            <p>Hello, I’m Devarla Tharun Sai, a Computer Science Engineering student at Kalasalingam Academy of Research and Education. I have a strong foundation in Java, Data Structures & Algorithms, Python, and problem-solving. I’m a quick learner, a team player, and always eager to explore new technologies.</p>
+        </div>
+    </section>
+    
+    <div class="container">
+        <h2>Technical Skills</h2>
+        <section class="skills-container">
+            <div class="skill-box">Java - 90%</div>
+            <div class="skill-box">DSA - 85%</div>
+            <div class="skill-box">Python - 80%</div>
+            <div class="skill-box">OOP - 80%</div>
+            <div class="skill-box">SQL - 80%</div>
+        </section>
+        
+        <h2>Professional Skills</h2>
+        <section class="skills-container">
+            <div class="skill-box">Problem Solving - 95%</div>
+            <div class="skill-box">Communication - 90%</div>
+            <div class="skill-box">Analytical Reasoning - 85%</div>
+            <div class="skill-box">Team Work - 88%</div>
+        </section>
+        
+        <h2>Projects</h2>
+        <section class="projects-container">
+            <div class="project-box">
+                <h3>Employee Attrition Prediction (Machine Learning)</h3>
+                <p>This project focuses on predicting employee attrition using machine learning, helping businesses retain talent and maintain productivity.</p>
+            </div>
+            <div class="project-box">
+                <h3>Restaurant Management Web Application</h3>
+                <p>Developed a web application using HTML, CSS, and JavaScript to showcase restaurant menus and enable online reservations.</p>
+            </div>
+            <div class="project-box">
+                <h3>Personalized Healthcare Solutions</h3>
+                <p>Developed a responsive web application integrating machine learning to provide personalized healthcare recommendations based on user data.</p>
+            </div>
+        </section>
+        
+        <h2>Resume</h2>
+        <section id="resume" class="resume">
+            <a href="resume.pdf" target="_blank"><i class="fas fa-file-alt"></i> Download Resume</a>
+        </section>
+        
+        <h2>Certifications</h2>
+        <section class="skills-container">
+            <div class="skill-box">SQL - IBM</div>
+            <div class="skill-box">GIT & GITHUB WORKSHOP</div>
+            <div class="skill-box">Data Science Professional</div>
+        </section>
+        
+        <h2>Contact</h2>
+        <section id="contact" class="icons">
+            <p>Let's connect! I am a quick learner, passionate about coding, and always eager to explore new challenges.</p>
+            <p>Phone: 9652664259</p>
+            <p>Email: tharunsaidevarla@gmail.com</p>
+            <a href="https://github.com/Tharun9905" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/devarla-tharun-sai-70a36226a" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/Tharun_Sai9905/" target="_blank"><i class="fas fa-code"></i></a>
+        </section>
+    </div>
+</body>
+</html>
